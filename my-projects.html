@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <title>Personal Page</title>
+    <style>
+        body {
+            --primary: #ff5722; /* Orange shade */
+            --primary-contrast: #ffffff;
+            --background: #ffffff;
+            --surface: #ffffff;
+            --on-surface: #000000;
+            --border: #ff5722;
+        }
+        :root {
+            --primary: #ff5722;
+        }       
+
+        .button {
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: darken(var(--primary), 10%);
+        }
+    </style>
+</head>
+<body>
+<nav class="container-fluid">
+    <ul>
+        <li><a href="/index.html" class="button">My Portfolio</a></li>
+    </ul>
+    <ul>
+        <li><a href="/my-projects.html" class="button">My Projects</a></li>
+        <li><a href="/contacts.html" class="button">Contacts</a></li>
+    </ul>
+</nav>
+<main class="container">
+    <div style="text-align: center;">
+        <h2>My Projects</h2>
+        <p>Here I will type some things</p>
+        <img src="https://github.com/tady88/Page/raw/main/data_science_ai.png" alt="AI Data Science" style="height: 600px;">
+        <figcaption>This is created by AI, but I can create some plots</figcaption>
+    </div>
+    <p></p>
+    <div style="text-align: center;">
+        <a href="/dataviz.html" class="button">Earthquakes</a>
+    </div>
+</main>
+<footer class="container" style="text-align: center;">
+    <small>Tadeáš Kaminský &middot; 2024</small>
+</footer>
+</body>
+</html>

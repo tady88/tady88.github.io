@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="icon" type="image/png" href="/icon.png">
+    <title>Tadeáš Kaminský</title>
+    <style>
+        body {
+            --primary: #ff5722; /* Orange shade */
+            --primary-contrast: #ffffff;
+            --background: #ffffff;
+            --surface: #ffffff;
+            --on-surface: #000000;
+            --border: #ff5722;
+        }
+        :root {
+            --primary: #ff5722;
+        }       
+
+        /* .button {
+            display: inline-block;
+            background-color: var(--primary);
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        } */
+
+        .button:hover {
+            background-color: darken(var(--primary), 10%);
+        }
+    </style>
+</head>
+<body>
+<nav class="container-fluid">
+    <ul>
+        <li><a href="/index.html" class="button">My Portfolio</a></li>
+    </ul>
+    <ul>
+        <li><a href="/my-projects.html" class="button">My Projects</a></li>
+        <li><a href="/contacts.html" class="button">Contacts</a></li>
+    </ul>
+</nav>
+<main class="container">
+    <div style="text-align: center;">
+        <section id="about">
+            <h2>About Me</h2>
+            <p style="text-align: center;">This is a brief introduction about myself, my background, and what motivates me.</p>
+            <figure>
+                <img src="https://github.com/tady88/Page/raw/main/profile_picture.jpeg" alt="Profile Picture" style="height: 600px;"/>
+                <figcaption style="text-align: center;">My representative profile picture</figcaption>
+            </figure>
+        </section>
+    </div>
+</main>
+<footer class="container" style="text-align: center;">
+    <small>Tadeáš Kaminský &middot; 2024</small>
+</footer>
+</body>
+</html>
